@@ -15,7 +15,7 @@ hlinks.on('mouseover', function(){
     abmenu.slideUp()
 })
 
-window.onload =function(){
+window.onload = function(){
     content[0].remove()
     content[2].classList.remove('hidden')
 }
