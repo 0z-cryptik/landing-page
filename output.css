@@ -639,6 +639,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-\[5rem\] {
+  margin-top: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -863,6 +867,11 @@ video {
   border-top-width: 2px;
 }
 
+.border-\[\#704634\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(112 70 52 / var(--tw-border-opacity));
+}
+
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -876,11 +885,6 @@ video {
 .border-gray-900 {
   --tw-border-opacity: 1;
   border-color: rgb(17 24 39 / var(--tw-border-opacity));
-}
-
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .border-b-black {
@@ -940,6 +944,10 @@ video {
 
 .bg-orange-500\/50 {
   background-color: rgb(249 115 22 / 0.5);
+}
+
+.bg-orange-700\/50 {
+  background-color: rgb(194 65 12 / 0.5);
 }
 
 .bg-slate-500 {
@@ -1041,12 +1049,21 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.pr-4 {
+  padding-right: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-6xl {
@@ -1083,6 +1100,11 @@ video {
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -1163,26 +1185,14 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:rounded-xl:hover {
-  border-radius: 0.75rem;
-}
-
-.hover\:rounded-t-xl:hover {
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
-}
-
 .hover\:rounded-b-xl:hover {
   border-bottom-right-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
 }
 
-.hover\:rounded-bl-xl:hover {
-  border-bottom-left-radius: 0.75rem;
-}
-
-.hover\:border:hover {
-  border-width: 1px;
+.hover\:rounded-t-xl:hover {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
 }
 
 .hover\:bg-gray-200:hover {
@@ -1255,12 +1265,20 @@ video {
     margin-top: 1.75rem;
   }
 
+  .sm\:mt-8 {
+    margin-top: 2rem;
+  }
+
   .sm\:mt-\[30rem\] {
     margin-top: 30rem;
   }
 
   .sm\:flex {
     display: flex;
+  }
+
+  .sm\:hidden {
+    display: none;
   }
 
   .sm\:h-1\/2 {
@@ -1360,12 +1378,17 @@ video {
     padding-right: 1.75rem;
   }
 
-  .sm\:pb-5 {
-    padding-bottom: 1.25rem;
+  .sm\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
-  .sm\:pb-6 {
-    padding-bottom: 1.5rem;
+  .sm\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .sm\:pb-5 {
+    padding-bottom: 1.25rem;
   }
 
   .sm\:pt-24 {
@@ -1374,6 +1397,10 @@ video {
 
   .sm\:pt-5 {
     padding-top: 1.25rem;
+  }
+
+  .sm\:pt-\[6rem\] {
+    padding-top: 6rem;
   }
 
   .sm\:text-2xl {
@@ -1401,6 +1428,12 @@ video {
     line-height: 1;
   }
 
+  .sm\:shadow-xl {
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
   .sm\:\[background-image\:url\(\'https\:\/\/res\.cloudinary\.com\/dhchswu0k\/image\/upload\/v1679898967\/coffee-beans-g71cbe9a72_1920_ornatg\.jpg\'\)\] {
     background-image: url('https://res.cloudinary.com/dhchswu0k/image/upload/v1679898967/coffee-beans-g71cbe9a72_1920_ornatg.jpg');
   }
@@ -1415,12 +1448,21 @@ video {
     order: 2;
   }
 
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .xl\:-mb-28 {
     margin-bottom: -7rem;
   }
 
   .xl\:-mt-5 {
     margin-top: -1.25rem;
+  }
+
+  .xl\:mb-\[5rem\] {
+    margin-bottom: 5rem;
   }
 
   .xl\:mb-auto {
@@ -1441,6 +1483,10 @@ video {
 
   .xl\:mr-11 {
     margin-right: 2.75rem;
+  }
+
+  .xl\:mt-0 {
+    margin-top: 0px;
   }
 
   .xl\:mt-20 {
@@ -1465,6 +1511,14 @@ video {
 
   .xl\:mt-\[20rem\] {
     margin-top: 20rem;
+  }
+
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:hidden {
+    display: none;
   }
 
   .xl\:h-32 {
@@ -1575,6 +1629,15 @@ video {
     padding: 0.75rem;
   }
 
+  .xl\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .xl\:pb-0 {
+    padding-bottom: 0px;
+  }
+
   .xl\:pb-3 {
     padding-bottom: 0.75rem;
   }
@@ -1585,6 +1648,10 @@ video {
 
   .xl\:pr-2 {
     padding-right: 0.5rem;
+  }
+
+  .xl\:pt-0 {
+    padding-top: 0px;
   }
 
   .xl\:pt-28 {
@@ -1637,6 +1704,12 @@ video {
   .xl\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
+  .xl\:shadow-none {
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
   .xl\:\[background-image\:url\(\'https\:\/\/res\.cloudinary\.com\/dhchswu0k\/image\/upload\/v1679909144\/various-vegetables-black-table-with-space-message_gm78rw\.jpg\'\)\] {

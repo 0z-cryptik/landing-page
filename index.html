@@ -10,17 +10,25 @@
             <div class="mx-auto animate-spin w-[7.5rem] h-[7.5rem] border-[1rem] border-gray-200 border-t-orange-500 rounded-[50%]"></div>
         </div>
         <div class="hidden">
-            <div class="flex flex-col xl:[background-image:url('https://res.cloudinary.com/dhchswu0k/image/upload/v1679909144/various-vegetables-black-table-with-space-message_gm78rw.jpg')] sm:[background-image:url('https://res.cloudinary.com/dhchswu0k/image/upload/v1679898967/coffee-beans-g71cbe9a72_1920_ornatg.jpg')] xl:h-[37.5rem] sm:h-[70rem] xl:bg-cover  sm:bg-cover">
+            <div class="flex flex-col xl:[background-image:url('https://res.cloudinary.com/dhchswu0k/image/upload/v1679909144/various-vegetables-black-table-with-space-message_gm78rw.jpg')] sm:[background-image:url('https://res.cloudinary.com/dhchswu0k/image/upload/v1679898967/coffee-beans-g71cbe9a72_1920_ornatg.jpg')] xl:h-[37.5rem] sm:h-[70rem] xl:pb-none sm:bg-cover">
                 <div class="fixed w-full">
-                    <p class="flex flex-row z-10  bg-orange-500/50  backdrop-blur-md">
-                        <span class="xl:flex-grow sm:w-1/5 ml-3">
+                    <p class="flex flex-row z-10  bg-orange-500/50 backdrop-blur-md">
+                        <span class="flex-grow ml-3">
                             <img class="sm:w-[14rem] sm:h-[10rem] xl:w-[8rem] xl:h-[6.25rem]" src="https://res.cloudinary.com/dhchswu0k/image/upload/v1679899707/pngegg_wkd6kv.png" alt="">
                         </span>
-                        <a href="#" id="ab" class="no-underline xl:text-base sm:text-4xl my-auto font-bold sm:w-1/5 xl:w-[5rem] text-center">About Us</a>
-                        <a href="#" id="co" class="no-underline xl:text-base sm:text-4xl my-auto font-bold sm:w-1/5 xl:w-[5rem] text-center hover:underline">Contact</a>
-                        <a href="#" id="co" class="no-underline xl:text-base sm:text-4xl my-auto font-bold sm:w-1/5 xl:w-[5rem] text-center hover:underline">login</a>
-                        <a href="#" id="co" class="no-underline my-auto border xl:text-base sm:text-4xl sm:w-1/5 xl:w-[5rem] bg-white xl:h-[3rem] sm:h-[5rem] rounded-xl mr-3 xl:pt-3 sm:pt-5 font-bold text-center hover:scale-105">Sign Up</a>
+                        <a href="#" id="ab" class="no-underline xl:text-base sm:text-4xl my-auto font-bold sm:w-1/5 xl:w-[5rem] text-center sm:hidden xl:block">About Us</a>
+                        <a href="#" id="co" class="no-underline xl:text-base sm:text-4xl my-auto font-bold sm:w-1/5 xl:w-[5rem] text-center hover:underline sm:hidden xl:block">Contact</a>
+                        <a href="#" id="co" class="no-underline xl:text-base sm:text-4xl my-auto font-bold sm:w-1/5 xl:w-[5rem] text-center hover:underline sm:hidden xl:block">login</a>
+                        <a href="#" id="co" class="no-underline my-auto border xl:text-base sm:text-4xl sm:w-1/5 xl:w-[5rem] bg-white xl:h-[3rem] sm:h-[5rem] rounded-xl mr-3 xl:pt-3 sm:pt-5 font-bold text-center hover:scale-105 sm:hidden xl:block">Sign Up</a>
+                        <button id="hamburger" class="xl:hidden pr-4"><img src="https://img.icons8.com/ios/50/null/menu--v4.png"/></button>
+                        <button id="closeham" class="hidden pr-4"><img src="https://img.icons8.com/ios/50/null/delete-sign--v1.png"/></button>
                     </p>
+                    <div id="hamburgerm" class="hidden text-4xl bg-orange-700/50 backdrop-blur-md">
+                        <a href="" class="block text-center text-gray-800 py-2 border-b-2 border-[#704634]">About Us</a>
+                        <a href="" class="block text-center py-2 border-b-2 border-[#704634]">Contact</a>
+                        <a href="" class="block text-center py-2 border-b-2 border-[#704634]">login</a>
+                        <a href="" class="block text-center py-2">Sign Up</a>
+                    </div>
                     <div id="hov" class="hidden bg-white rounded-xl w-1/6 ml-[70%]">
                         <a class="block text-center border-b border-b-gray-300 hover:bg-gray-200 hover:rounded-t-xl py-1" href="#">Promotions</a>
                         <a class="block hover:bg-gray-200 text-center border-b border-b-gray-300 py-1" href="#">Blog</a>
@@ -30,7 +38,7 @@
                 <h1 class="xl:text-6xl sm:text-8xl mx-auto font-hevitas font-extrabold sm:w-3/5 text-center xl:text-white h-1/3 xl:mt-[20rem] sm:mt-[30rem] uppercase">Welcome To Omega Kitchen</h1>
 
                 <div class="border xl:h-[8%] sm:h-[10rem] xl:-mt-5 bg-white xl:rounded-2xl sm:rounded-full mx-auto xl:w-[32rem] sm:w-[47.5rem]">
-                    <div class="xl:h-full sm:h-full flex flex-row w-full  text-center ">
+                    <div class="h-full flex flex-row w-full  text-center">
                         <img src="https://res.cloudinary.com/dhchswu0k/image/upload/v1679898965/icons8-visit-48_ap0myd.png" class="xl:w-8 xl:h-8 sm:w-[10%] sm:h-1/2 my-auto" alt="">
                         <input class="xl:w-[29rem] h-full sm:w-[70%] xl:text-base sm:text-4xl focus:outline-none rounded-tl-xl rounded-bl-xl" type="text" placeholder="Enter delivery address...">
                         <button class="bg-orange-500 hover:bg-orange-400 my-auto h-3/4 xl:w-[3rem] sm:w-[20%] pb-1 text-white xl:text-2xl sm:text-6xl rounded-full xl:mr-1 sm:mr-2">&rarr;</button>
@@ -39,32 +47,32 @@
             </div>
             
             <div class="flex xl:flex-row sm:flex-col gap-2 xl:mt-7">
-                <figure class="xl:w-1/3 sm:mb-[5rem] sm:h-1/2 xl:pl-4 sm:px-7 order-2">
+                <figure class="xl:w-1/3 sm:mt-8 xl:mt-0 xl:mb-[5rem] sm:h-1/2 xl:pl-4 sm:px-7 order-2 sm:shadow-xl xl:shadow-none sm:py-10 xl:py-0">
                     <img class="mx-auto xl:w-36 xl:h-32 sm:h-[50%]" src="https://res.cloudinary.com/dhchswu0k/image/upload/v1679898966/NicePng_bike-rider-png_1976322_nzu7hk.png" alt="">
                     <figcaption class="xl:text-3xl sm:text-6xl xl:mt-3 text-center font-bold sm:mt-10">Become a Dispatch Rider</figcaption>
                     <figcaption class="text-center xl:text-base sm:text-5xl xl:mt-3 sm:mt-7">Working as a delivery personnel allows you to earn a dependable income while enjoying the flexibility of being able to work at any time and at any location.
                     </figcaption>
-                    <figcaption class="text-center xl:text-base sm:text-4xl hover:scale-105 text-[#F28C28]"><a href="#">sign up&rarr;</a></figcaption>
+                    <figcaption class="text-center xl:text-base sm:text-4xl hover:scale-105 text-[#F28C28] xl:w-1/3 xl:mx-auto"><a href="#">sign up&rarr;</a></figcaption>
                 </figure>
-                <figure class="xl:w-1/3 sm:mb-[5rem] sm:h-1/2 xl:pl-4 sm:px-7 order-1">
+                <figure class="xl:w-1/3 xl:mb-[5rem] sm:h-1/2 xl:pl-4 sm:px-7 order-1 sm:shadow-xl xl:shadow-none sm:pb-10 xl:pb-0">
                     <img class="mx-auto xl:w-36 xl:h-32 sm:h-[35%] sm:w-3/5" src="https://res.cloudinary.com/dhchswu0k/image/upload/v1679898967/398_uss6w6.jpg" alt="">
                     <figcaption class="xl:text-3xl mt-3 text-center font-bold sm:text-6xl">Become a Supplier</figcaption>
                     <figcaption class="text-center xl:text-base sm:text-5xl sm:mt-7 xl:mt-3">
                         Partnering with us will enable you to expand your business and connect with new collaborators.
                     </figcaption>
-                    <figcaption class="text-center xl:text-base sm:text-4xl hover:scale-105 text-[#F28C28]"><a href="#">sign up&rarr;</a></figcaption>
+                    <figcaption class="text-center xl:text-base sm:text-4xl hover:scale-105 text-[#F28C28] xl:w-1/3 xl:mx-auto"><a href="#">sign up&rarr;</a></figcaption>
                 </figure>
-                <figure class="xl:w-1/3 sm:mb-[5rem] sm:h-1/2 xl:pl-4 sm:px-7 order-3">
+                <figure class="xl:w-1/3 sm:mt-8 xl:mt-0 xl:mb-[5rem] sm:h-1/2 xl:pl-4 sm:px-7 order-3 sm:shadow-xl xl:shadow-none sm:py-10 xl:py-0">
                     <img class="mx-auto xl:w-36 xl:h-32 sm:h-[35%]" src="https://res.cloudinary.com/dhchswu0k/image/upload/v1679898966/smartphone_mcztrk.png" alt="">
                     <figcaption class="xl:text-3xl xl:mt-3 sm:mt-10 text-center font-bold sm:text-6xl">Try The App</figcaption>
                     <figcaption class="text-center xl:text-base sm:text-5xl sm:mt-7 xl:mt-3 xl:pr-2">
                         Our new app offers superior customer service and exciting new features that results in an exceptional user experience.
                     </figcaption>
-                    <figcaption class="text-center xl:text-base hover:scale-105 sm:text-4xl text-[#F28C28]"><a href="#">get the app&rarr;</a></figcaption>
+                    <figcaption class="text-center xl:text-base hover:scale-105 sm:text-4xl text-[#F28C28] xl:w-1/3 xl:mx-auto"><a href="#">get the app&rarr;</a></figcaption>
                 </figure>
             </div>
             
-            <div class="flex xl:flex-row sm:flex-col xl:h-auto sm:items-center sm:mb-8 xl:-mb-28">
+            <div class="flex xl:flex-row sm:flex-col xl:h-auto sm:items-center sm:mb-8 xl:-mb-28 sm:pt-[6rem] xl:pt-0">
                 <div class="flex flex-col my-auto items-center sm:order-2 xl:order-1">
                     <h1 class="xl:text-4xl font-bold sm:mt-10 sm:text-6xl">All available on the app.</h1>
                     <p class="text-center xl:text-xl sm:text-4xl sm:mt-7 sm:px-7 xl:w-3/4 xl:mt-4">
@@ -94,16 +102,16 @@
                         <button id="eurob" class="p-3 sm:w-1/3 xl:text-base sm:text-4xl xl:font-bold sm:rounded-full bg-white/0">European Meal</button>
                         <button id="asiab" class="p-3 sm:w-1/3 xl:text-base sm:text-4xl xl:font-bold sm:rounded-full bg-white/0">Asian Meal</button>
                     </div>
-                    <div id="euro" class="hidden flex xl:flex-row sm:flex-col mt-10">
-                        <h1 class="xl:w-1/4 sm:mx-auto text-center sm:mb-9 xl:mb-auto xl:text-4xl sm:text-5xl xl:order-2 sm:w-3/5 my-auto">Noodles With Orange Sauce from Europe</h1>
+                    <div id="euro" class="hidden flex sm:flex-row mt-[5rem]">
+                        <h1 class="xl:w-1/4 text-center xl:mb-auto xl:text-4xl sm:text-5xl order-2 my-auto">Noodles With Orange Sauce from Europe</h1>
                         <img class="sm:w-3/5 xl:w-1/2 xl:order-1 xl:h-[30rem] mx-auto mb-10" src="https://res.cloudinary.com/dhchswu0k/image/upload/v1679898971/taylor-kiser-6RJct18G_3I-unsplash_k5d37z.jpg" alt="">
                     </div>
-                    <div id="afri" class="block flex xl:flex-row sm:flex-col mt-10">
-                        <h1 class="xl:w-1/4 mx-auto text-center my-auto sm:mb-9 xl:mb-auto xl:text-4xl sm:text-5xl">Fried Rice and Stew from Africa</h1>
+                    <div id="afri" class="block flex sm:flex-row mt-[5rem]">
+                        <h1 class="xl:w-1/4 text-center my-auto xl:mb-auto xl:text-4xl sm:text-5xl">Fried Rice and Stew from Africa</h1>
                         <img class="sm:w-3/5 xl:w-1/2 xl:h-[30rem] mx-auto mb-10" src="https://res.cloudinary.com/dhchswu0k/image/upload/v1679898969/femoree-_VRo59IsqLo-unsplash_j6ctzb.jpg" alt="">
                     </div>
-                    <div id="asia" class="hidden mt-10 flex xl:flex-row sm:flex-col">
-                        <h1 class="xl:w-1/4 mx-auto text-center my-auto sm:mb-9 xl:mb-auto xl:text-4xl sm:text-5xl">Soup Noodles From Asia</h1>
+                    <div id="asia" class="hidden mt-[5rem] flex sm:flex-row">
+                        <h1 class="xl:w-1/4 text-center my-auto xl:mb-auto xl:text-4xl sm:text-5xl">Soup Noodles From Asia</h1>
                         <img class="sm:w-3/5 xl:w-1/2 xl:h-[30rem] mx-auto mb-10" src="https://res.cloudinary.com/dhchswu0k/image/upload/v1679898972/sharon-chen-L1ZhjK-R6uc-unsplash_y5uwrr.jpg" alt="">
                     </div>
                 </div>

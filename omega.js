@@ -1,3 +1,18 @@
+const hamburgerbtn = $('#hamburger')
+const hamburgerMenu = $('#hamburgerm')
+const hamburgerbtn2 = $('#closeham')
+
+hamburgerbtn.on('click', function(){
+    hamburgerMenu.slideDown()
+    $(this).hide()
+    hamburgerbtn2.show()
+    hamburgerbtn2.on('click', function(){
+        hamburgerMenu.slideUp()
+        $(this).hide()
+        hamburgerbtn.show()
+    })
+})
+
 const content = document.querySelectorAll('div')
 const abmenu = $('div#hov')
 const about = $('a#ab')
